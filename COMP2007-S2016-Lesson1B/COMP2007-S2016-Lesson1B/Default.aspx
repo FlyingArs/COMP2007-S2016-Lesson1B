@@ -48,11 +48,11 @@
                 <form id="form" runat="server">
                     <div class="form-group">
                         <asp:Label ID="FirstNameLabel" Text="First Name" runat="server" />
-                        <asp:TextBox CssClass="form-control" ID="FirstNameTextBox" runat="server" />
+                        <asp:TextBox CssClass="form-control" ID="FirstNameTextBox" runat="server" required="true" />
                     </div>
                     <div class="form-group">
                         <asp:Label ID="LastNameLabel" Text="Last Name" runat="server" />
-                        <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" />
+                        <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" required="true" />
                     </div>
                     <div class="form-group">
                         <asp:Label ID="AgeLabel" Text="Age" runat="server" />
