@@ -16,6 +16,7 @@ namespace COMP2016_S2016_Lesson1B
 
         protected void SubmitButton_Click(object sender, EventArgs e)
         {
+            //this is a function where you display the full name of a user based on the first and last name they typed in 
             FullNameTextBox.Text = FirstNameTextBox.Text.ToString() + " " + LastNameTextBox.Text.ToString();
         }
     }

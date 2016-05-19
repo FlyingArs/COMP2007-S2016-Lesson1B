@@ -1,4 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="COMP2007_S2016_Lesson1B.Contact" %>
+﻿<!-- 
+File Name: Contact.aspx
+Author's Name: Siqian Yu
+Website Name: http://comp2007-s2016-lesson1b-flyingars.azurewebsites.net/
+File Description: This is the file for the Contact page    
+-->
+
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="COMP2007_S2016_Lesson1B.Contact" %>
 
 <!DOCTYPE html>
 
@@ -23,7 +30,7 @@
                 </button>
                 <a class="navbar-brand" href="#">ASP.NET Web Forms</a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- Navigation Bar -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>Home</a></li>
