@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="COMP2016_S2016_Lesson1B.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="COMP2007_S2016_Lesson1B.Contact" %>
 
 <!DOCTYPE html>
 
@@ -42,36 +42,7 @@
     </nav>
 
     <div class="container">
-        <div class="row">
-            <div class="col-md-offset-3 col-md-6">
-                <h1>User Profile</h1>
-                <form id="form" runat="server">
-                    <div class="form-group">
-                        <asp:Label ID="FirstNameLabel" Text="First Name" runat="server" />
-                        <asp:TextBox CssClass="form-control" ID="FirstNameTextBox" runat="server" required="true" CausesValidation="True" />
-                    </div>
-                    <div class="form-group">
-                        <asp:Label ID="LastNameLabel" Text="Last Name" runat="server" />
-                        <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" required="true" CausesValidation="True" />
-                    </div>
-                    <div class="form-group">
-                        <asp:Label ID="AgeLabel" Text="Age" runat="server" />
-                        <asp:TextBox CssClass="form-control" ID="AgeTextBox" runat="server" CausesValidation="True" />
-                    </div>
-                    <asp:RangeValidator ID="AgeRangeValidator" CssClass="alert alert-danger" ErrorMessage="Enter a Range Between 1 and 100" ControlToValidate="AgeTextBox" runat="server" MinimumValue="1" MaximumValue="100" />
-                    <br />
-                    <br />
-                    <asp:Button CssClass="btn btn-primary" ID="SubmitButton" Text="Submit" runat="server" OnClick="SubmitButton_Click" />
-                    <br />
-                    <hr />
-                    <div class="form-group">
-                        <asp:Label ID="FullNameLabel" Text="Full Name" runat="server" />
-                        <asp:TextBox CssClass="form-control" ID="FullNameTextBox" runat="server" />
-                    </div>
-
-                </form>
-            </div>
-        </div>
+        <h1>Please call 1-800-234-123 for products and services</h1>
     </div>
 
 
