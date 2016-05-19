@@ -28,7 +28,7 @@ File Description: This is the file for the home page
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">ASP.NET Web Forms</a>
+                <a class="navbar-brand" href="#">David Yu Web Forms</a>
             </div>
             <!-- Navigation Bar -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -51,7 +51,7 @@ File Description: This is the file for the home page
     <div class="container">
         <div class="row">
             <div class="col-md-offset-3 col-md-6">
-                <h1>User Profile</h1>
+                <h1>Login Profile</h1>
                 <form id="form" runat="server">
                     <div class="form-group">
                         <asp:Label ID="FirstNameLabel" Text="First Name" runat="server" />
